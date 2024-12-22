@@ -22,10 +22,10 @@ override = 0 # whether to override old mask images
 # set up paths
 # datapath: input directory of images
 # outpath: output directory of images
-#datapath = r"SampleImages/FishBody"
-#outpath = r"SampleImages/FishBodyMasked"
-datapath = r"C:\Users\lmendelson\Documents\Data\Summer23\BOS\A2_ST5_crop_medfilt"
-outpath = r"C:\Users\lmendelson\Documents\Data\Summer23\BOS\A2_ST5_masked"
+datapath = r"SampleImages/FishBody"
+outpath = r"SampleImages/FishBodyMasked"
+# datapath = r"SampleImages"
+# outpath = r"tmp"
 
 mask = None # pre-initialize mask
 global winsize
